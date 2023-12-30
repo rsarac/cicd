@@ -1,0 +1,31 @@
+[0m03:10:02.290770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d0037a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d078d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d078d070>]}
+
+
+============================== 03:10:02.294568 | decec29d-04f5-4c14-af6c-f1f0676388e5 ==============================
+[0m03:10:02.294568 [info ] [MainThread]: Running with dbt=1.7.4
+[0m03:10:02.295317 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/robin_sarac/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:10:02.295941 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/robin_sarac/.dbt')}
+[0m03:10:02.296382 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m03:10:05.569627 [debug] [MainThread]: Starter project path: /home/robin_sarac/cicd-env/lib/python3.8/site-packages/dbt/include/starter_project
+[0m03:10:05.572094 [info ] [MainThread]: 
+Your new dbt project "cicd_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:10:05.572595 [info ] [MainThread]: Setting up your profile.
+[0m03:10:29.493826 [info ] [MainThread]: Profile cicd_dbt written to /home/robin_sarac/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:10:29.495147 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 27.21352, "process_user_time": 2.211137, "process_kernel_time": 0.190317, "process_mem_max_rss": "93100", "process_in_blocks": "18768", "process_out_blocks": "80"}
+[0m03:10:29.495943 [debug] [MainThread]: Command `dbt init` succeeded at 03:10:29.495766 after 27.21 seconds
+[0m03:10:29.496343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d0037a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d2229d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60d078d130>]}
+[0m03:10:29.496735 [debug] [MainThread]: Flushing usage events
